@@ -302,6 +302,14 @@ svg {
   vertical-align: middle;
 }
 
+.image-blurred-edge {
+  background-image: url('http://lorempixel.com/200/200/city/9');
+  width: 200px;
+  height: 200px;
+  /* you need to match the shadow color to your background or image border for the desired effect*/
+  box-shadow: 0 0 8px 8px #15967d;
+}
+
 table {
   caption-side: bottom;
   border-collapse: collapse;
@@ -579,6 +587,10 @@ progress {
 .initialism {
   font-size: 0.875em;
   text-transform: uppercase;
+}
+
+.main-photo {
+
 }
 
 .blockquote {
